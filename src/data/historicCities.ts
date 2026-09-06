@@ -1,0 +1,133 @@
+export interface HistoricCityPhoto {
+  id: string;
+  name: string;
+  city: string;
+  state: string;
+  description: string;
+  imageUrl: string;
+  yearOrEra: string;
+  historicalTag: string;
+}
+
+export const BRAZILIAN_HISTORIC_CITIES: HistoricCityPhoto[] = [
+  {
+    id: 'ouro-preto',
+    name: 'Igreja de São Francisco & Casario Barroco',
+    city: 'Ouro Preto',
+    state: 'MG',
+    description: 'Patrimônio Mundial da UNESCO. Antiga Vila Rica, epicentro do ciclo do ouro e das esculturas de Aleijadinho.',
+    imageUrl: 'https://images.unsplash.com/photo-1588698579040-5e839e55c3c0?w=800&auto=format&fit=crop&q=80',
+    yearOrEra: 'Século XVIII',
+    historicalTag: 'Patrimônio Mundial UNESCO',
+  },
+  {
+    id: 'paraty',
+    name: 'Centro Histórico & Ladeiras de Pedra Pé-de-Moleque',
+    city: 'Paraty',
+    state: 'RJ',
+    description: 'Porto histórico do Caminho do Ouro com casarões coloniais preservados e preservação arquitetônica tombada pelo IPHAN.',
+    imageUrl: 'https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?w=800&auto=format&fit=crop&q=80',
+    yearOrEra: 'Século XVII - XVIII',
+    historicalTag: 'Caminho Colonial do Ouro',
+  },
+  {
+    id: 'pelourinho-salvador',
+    name: 'Largo do Pelourinho & Fachadas Centenárias',
+    city: 'Salvador',
+    state: 'BA',
+    description: 'Primeira capital colonial do Brasil. Mais importante conjunto arquitetônico colonial barroco das Américas.',
+    imageUrl: 'https://images.unsplash.com/photo-1596701062351-8c2c14d1fdd0?w=800&auto=format&fit=crop&q=80',
+    yearOrEra: 'Fundada em 1549',
+    historicalTag: 'Primeira Capital do Brasil',
+  },
+  {
+    id: 'tiradentes',
+    name: 'Largo das Forras & Serra de São José',
+    city: 'Tiradentes',
+    state: 'MG',
+    description: 'Cidade colonial mineira célebre pela culinária de raiz, marias-fumaças a vapor ativas e casarões floridos.',
+    imageUrl: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?w=800&auto=format&fit=crop&q=80',
+    yearOrEra: 'Vila de São José del-Rei',
+    historicalTag: 'Circuito Estrada Real',
+  },
+  {
+    id: 'olinda',
+    name: 'Convento de São Francisco & Alto da Sé',
+    city: 'Olinda',
+    state: 'PE',
+    description: 'Uma das mais antigas cidades brasileiras, com igrejas barrocas monumentais e vista para o oceano Atlântico.',
+    imageUrl: 'https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?w=800&auto=format&fit=crop&q=80',
+    yearOrEra: 'Fundada em 1535',
+    historicalTag: 'Patrimônio da Humanidade',
+  },
+  {
+    id: 'diamantina',
+    name: 'Beco do Mota & Casario dos Diamantes',
+    city: 'Diamantina',
+    state: 'MG',
+    description: 'Terra de Chica da Silva e Juscelino Kubitschek, berço de tradição musical de serenatas e arquitetura colonial única.',
+    imageUrl: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=800&auto=format&fit=crop&q=80',
+    yearOrEra: 'Arraial do Tijuco (1713)',
+    historicalTag: 'Ciclo dos Diamantes',
+  },
+  {
+    id: 'sao-joao-del-rei',
+    name: 'Basílica do Pilar & Pontes Históricas de Pedra',
+    city: 'São João del-Rei',
+    state: 'MG',
+    description: 'A cidade onde os sinos centenários das igrejas barrocas conversam e anunciam as horas com toques tradicionais.',
+    imageUrl: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800&auto=format&fit=crop&q=80',
+    yearOrEra: 'Século XVIII',
+    historicalTag: 'Linguagem dos Sinos',
+  },
+  {
+    id: 'pirenopolis',
+    name: 'Igreja Matriz de Nossa Senhora do Rosário',
+    city: 'Pirenópolis',
+    state: 'GO',
+    description: 'Joia colonial do Planalto Central, tombada pelo patrimônio histórico e famosa pelas Cavalhadas e casario bucólico.',
+    imageUrl: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=80',
+    yearOrEra: 'Fundada em 1727',
+    historicalTag: 'Tradição do Centro-Oeste',
+  },
+  {
+    id: 'petropolis',
+    name: 'Palácio Imperial & Arquitetura da Serra',
+    city: 'Petrópolis',
+    state: 'RJ',
+    description: 'A Cidade Imperial do Brasil. Refúgio de verão de Dom Pedro II, com casarões neoclássicos e pontes românticas.',
+    imageUrl: 'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800&auto=format&fit=crop&q=80',
+    yearOrEra: 'Fundada por D. Pedro II',
+    historicalTag: 'Cidade Imperial',
+  },
+  {
+    id: 'sao-lourenco',
+    name: 'Parque das Águas Mineral & Estâncias de Minas',
+    city: 'São Lourenço',
+    state: 'MG',
+    description: 'Coração do Circuito das Águas de Minas Gerais. Fontes hidrominerais raras, tradição cafeeira e hospitalidade secular.',
+    imageUrl: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80',
+    yearOrEra: 'Circuito das Águas',
+    historicalTag: 'Estância Hidromineral',
+  },
+  {
+    id: 'congonhas',
+    name: 'Santuário de Bom Jesus de Matosinhos & Profetas',
+    city: 'Congonhas',
+    state: 'MG',
+    description: 'As doze estátuas monumentais dos Profetas em pedra-sabão talhadas pelo mestre Aleijadinho no século XVIII.',
+    imageUrl: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&auto=format&fit=crop&q=80',
+    yearOrEra: 'Obra Prima Barroca',
+    historicalTag: 'Mestres do Barroco',
+  },
+  {
+    id: 'holambra',
+    name: 'Moinho Povos Unidos & Arquitetura Típica',
+    city: 'Holambra',
+    state: 'SP',
+    description: 'Colônia histórica fundada por imigrantes holandeses, conhecida como a Capital Nacional das Flores e do turismo temático.',
+    imageUrl: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&auto=format&fit=crop&q=80',
+    yearOrEra: 'Colonização Holandesa',
+    historicalTag: 'Cidade das Flores',
+  },
+];

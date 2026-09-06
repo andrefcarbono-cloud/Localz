@@ -1,0 +1,6 @@
+{
+  "name": "Localz",
+  "description": "Plataforma mobile-first para descoberta local de eventos, lugares, comércios, serviços e farmácias de plantão.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
